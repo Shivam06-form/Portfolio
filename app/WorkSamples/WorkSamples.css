@@ -1,0 +1,39 @@
+.Work {
+  width: 75%;
+  margin: auto;
+  margin-top: 5%;
+  /* background-color: whitesmoke; */
+  margin-bottom: 5%;
+}
+
+.Work ul {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  text-align: left;
+  font-size: large;
+}
+
+.Work ul li {
+  /* background-color: aqua; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 760px) {
+  .Work {
+    width: 95%;
+  }
+
+  .Work ul li {
+    width: 100%;
+  }
+
+  .Work ul {
+    height: fit-content;
+  }
+}

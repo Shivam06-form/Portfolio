@@ -1,0 +1,42 @@
+.graducation {
+  background-color: rgb(27, 26, 25);
+  box-shadow: 4px 2px 4px 2px white;
+  width: 60%;
+  border-style: groove;
+  border: 0.5px solide black;
+  margin: auto;
+  margin-top: 4%;
+  border-radius: 10px;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  color: whitesmoke;
+  overflow: hidden;
+}
+
+.graducation ul {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  color: white;
+  height: 80%;
+  justify-content: space-between;
+}
+
+.graducation ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 760px) {
+  .graducation {
+    width: 95%;
+    font-size: medium;
+  }
+  .graducation ul {
+    width: 100%;
+    /* height: 100%; */
+  }
+}

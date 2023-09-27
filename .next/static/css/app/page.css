@@ -1,0 +1,149 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/FirstPage.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.first {
+  background-color: rgba(49, 4, 248, 0.767);
+  display: flex;
+  border-color: black;
+  border-style: groove;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: goldenrod;
+  font-weight: 700;
+  padding: 1%;
+}
+
+.first b {
+  color: greenyellow;
+}
+
+.image {
+  border-radius: 50%;
+  margin: auto;
+}
+
+.job-type {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+  display: flex;
+  align-content: center;
+  width: 35%;
+  justify-content: space-between;
+}
+
+.job-type-image {
+  width: 15%;
+  height: 15%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.detials {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.detials b {
+  text-align: left;
+  width: 70%;
+  /* background-color: aqua; */
+}
+
+.skills{
+  width: 75%;
+}
+
+@media (max-width: 765px) {
+  .first {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .image {
+    margin: auto;
+    border-radius: 10%;
+  }
+
+  .job-type {
+    width: 50%;
+  }
+.detials{
+  flex-direction: column;
+}
+  
+}
+
+@media (max-width: 465px) {
+  .first {
+    font-size: smaller;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/Header.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.header {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  overflow: hidden;
+}
+
+.header header {
+  text-align: center;
+  display: flex;
+  background-color: rgba(148, 75, 7, 0.658);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  width: 55%;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+
+.list li {
+  color: rgba(245, 222, 179, 0.781);
+  cursor: pointer;
+  transition: all 700ms;
+}
+
+.list li:hover {
+  color: rgba(214, 14, 14, 0.781);
+  transition: all 700ms;
+}
+
+@media (max-width: 765px) {
+  .header header {
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .list {
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: larger;
+    width: 95%;
+  }
+
+  .list li {
+ margin-top: 10px;
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,16 @@
+body {
+  background-color: grey;
+}
+
+summary {
+  margin: auto;
+  margin-top: 2%;
+  color: whitesmoke;
+  width: 95%;
+}
+
+.image {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
