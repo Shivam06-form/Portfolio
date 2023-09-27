@@ -1,6 +1,7 @@
 {
   "/page": "app/page.js",
-  "/Qualification/page": "app/Qualification/page.js",
   "/WorkSamples/page": "app/WorkSamples/page.js",
-  "/Experience/page": "app/Experience/page.js"
+  "/Qualification/page": "app/Qualification/page.js",
+  "/Experience/page": "app/Experience/page.js",
+  "/Intership/NullClasses/page": "app/Intership/NullClasses/page.js"
 }

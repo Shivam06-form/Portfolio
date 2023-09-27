@@ -7,6 +7,10 @@ import Header from "@/components/Header";
 export default function Graducation() {
   return (
     <Fragment>
+      <metadata>
+        <title>Qualification</title>
+        <meta name="description" content="Qualifications of Shivam Bhagwat" />
+      </metadata>
       <Header />
       <div className="graducation">
         <ul>

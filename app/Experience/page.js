@@ -8,6 +8,11 @@ import Link from "next/link";
 export default function Experience() {
   return (
     <Fragment>
+      {" "}
+      <metadata>
+        <title>Experience</title>
+        <meta name="description" content="Experiences of NULLCLASS" />
+      </metadata>
       <Header />
       <ul className="EXPERINCE">
         <li>

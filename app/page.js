@@ -3,11 +3,15 @@
 import FirstPage from "../components/FirstPage";
 import Header from "../components/Header";
 import Link from "next/link";
-import React from "react";
+import React, { Fragment } from "react";
 
 export default function Page() {
   return (
-    <div>
+    <Fragment>
+      <metadata>
+        <title>Portfolio</title>
+        <meta name="description" content="Portfolio of Shivam Bhagwat" />
+      </metadata>
       <Header />
       <FirstPage />
       <summary>
@@ -31,6 +35,6 @@ export default function Page() {
         </Link>
         ,
       </summary>
-    </div>
+    </Fragment>
   );
 }
