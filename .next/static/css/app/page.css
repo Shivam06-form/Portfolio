@@ -54,11 +54,11 @@
   /* background-color: aqua; */
 }
 
-.skills{
+.skills {
   width: 75%;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .first {
     flex-direction: column;
     width: 95%;
@@ -72,12 +72,16 @@
   .job-type {
     width: 50%;
   }
-.detials{
-  flex-direction: column;
-}
-  
+  .detials {
+    flex-direction: column;
+  }
 }
 
+@media (max-width: 1024px) {
+  .first {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 465px) {
   .first {
     font-size: smaller;

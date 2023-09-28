@@ -11,39 +11,6 @@
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
-    ],
-    "/WorkSamples/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/WorkSamples/page.css",
-      "static/chunks/app/WorkSamples/page.js"
-    ],
-    "/Experience/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Experience/page.css",
-      "static/chunks/app/Experience/page.js"
-    ],
-    "/Qualification/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Qualification/page.css",
-      "static/chunks/app/Qualification/page.js"
-    ],
-    "/Intership/intershala/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Intership/intershala/page.js"
-    ],
-    "/Intership/NullClasses/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Intership/NullClasses/page.js"
-    ],
-    "/Intership/Udemy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Intership/Udemy/page.js"
     ]
   }
 }
