@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Link from "next/link";
 import { Fragment } from "react";
 import "./WorkSamples.css";
-
+import Divider from "@/components/Divider";
 
 export default function WorkSamples() {
   return (
@@ -13,8 +13,7 @@ export default function WorkSamples() {
         <title>Work Samples</title>
         <meta name="description" content="Some of my work samples" />
       </metadata>
-
-      <Header />
+      <Header /> <Divider style={{ marginTop: "1%" }} />
       <div className="Work">
         <ul>
           <li>

@@ -1,9 +1,8 @@
 .graducation {
-  background-color: rgb(27, 26, 25);
   box-shadow: 4px 2px 4px 2px white;
   width: 60%;
-  border-style: groove;
-  border: 0.5px solide black;
+  /* border-style: groove;
+  border: 0.5px solide black; */
   margin: auto;
   margin-top: 4%;
   border-radius: 10px;
@@ -11,7 +10,7 @@
   display: flex;
   justify-content: center;
   font-size: large;
-  color: whitesmoke;
+  color: black;
   overflow: hidden;
 }
 
@@ -19,8 +18,9 @@
   display: flex;
   width: 75%;
   flex-direction: column;
-  color: white;
+  color: black;
   height: 80%;
+  list-style: circle;
   justify-content: space-between;
 }
 
@@ -37,6 +37,6 @@
   }
   .graducation ul {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
   }
 }

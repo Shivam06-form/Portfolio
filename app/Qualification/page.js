@@ -3,6 +3,7 @@
 import { Fragment } from "react";
 import "./Qualification.css";
 import Header from "@/components/Header";
+import Divider from "@/components/Divider";
 
 export default function Graducation() {
   return (
@@ -12,6 +13,7 @@ export default function Graducation() {
         <meta name="description" content="Qualifications of Shivam Bhagwat" />
       </metadata>
       <Header />
+      <Divider  style={{marginTop:"1%"}} />
       <div className="graducation">
         <ul>
           <li>

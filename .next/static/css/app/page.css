@@ -1,61 +1,53 @@
-/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/FirstPage.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************/
-.first {
-  background-color: rgba(49, 4, 248, 0.767);
-  display: flex;
-  border-color: black;
-  border-style: groove;
-  width: 70%;
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/Detials/Detials.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.detail {
+  width: 85%;
   margin: auto;
   margin-top: 5%;
-  border-radius: 5%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: goldenrod;
-  font-weight: 700;
-  padding: 1%;
+  opacity: 100;
+  transform: translateY(-2rem);
+  transition: all 400ms;
 }
 
-.first b {
-  color: greenyellow;
-}
-
-.image {
-  border-radius: 50%;
-  margin: auto;
+.hidden {
+  transition: all 400ms;
+  opacity: 0;
+  transform: translateY(2rem);
 }
 
 .job-type {
-  font-size: larger;
+  font-size: large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: beige;
+  color: rgb(180, 180, 16);
   display: flex;
-  align-content: center;
-  width: 35%;
-  justify-content: space-between;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 10%;
 }
 
 .job-type-image {
-  width: 15%;
-  height: 15%;
+  width: 10%;
+  height: -moz-fit-content;
+  height: fit-content;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 .detials {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
 .detials b {
   text-align: left;
   width: 70%;
-  /* background-color: aqua; */
 }
 
 .skills {
-  width: 75%;
+  /* background-color: aqua; */
+  width: 70%;
 }
 
 @media (max-width: 768px) {
@@ -71,9 +63,22 @@
 
   .job-type {
     width: 50%;
+    align-items: center;
   }
+
   .detials {
     flex-direction: column;
+  }
+
+  .detials b {
+    width: 100%;
+  }
+  .skills {
+    width: 100%;
+  }
+
+  .detail {
+    margin-top: 15%;
   }
 }
 
@@ -84,7 +89,83 @@
 }
 @media (max-width: 465px) {
   .first {
-    font-size: smaller;
+    font-size: small;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/FirstPage.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.first {
+  display: flex;
+  border-color: black;
+  width: 85%;
+  margin: auto;
+  border-radius: 5%;
+  margin-top: 4%;
+  color: goldenrod;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.first b {
+  color: rgba(10, 29, 2, 0.719);
+}
+.summary {
+  width: 40%;
+  font-size: medium;
+  padding: 4%;
+  color: #504c4c8e;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.summary h1 {
+  color: #000;
+}
+
+.summary button {
+  width: 40%;
+  margin-top: 2%;
+  background-color: transparent;
+  color: rgb(31, 30, 30);
+  border-radius: 5%;
+  padding: 1%;
+  font-size: medium;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.summary button:hover {
+  background-color: rgba(0, 0, 255, 0.37);
+  color: whitesmoke;
+  transition: all 500ms;
+}
+
+.image {
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+  background-color: aqua;
+}
+
+@media (max-width: 768px) {
+  .first {
+    width: 95%;
+  }
+
+  .summary {
+    width: 100%;
+  }
+
+  .summary button {
+    width: 100%;
+  }
+
+  .image {
+    width: 55%;
+    height: 55%;
   }
 }
 
@@ -101,7 +182,7 @@
 .header header {
   text-align: center;
   display: flex;
-  background-color: rgba(148, 75, 7, 0.658);
+  /* background-color: rgba(148, 75, 7, 0.658); */
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -120,7 +201,7 @@
 }
 
 .list li {
-  color: rgba(245, 222, 179, 0.781);
+  color: rgba(31, 30, 28, 0.781);
   cursor: pointer;
   transition: all 700ms;
 }

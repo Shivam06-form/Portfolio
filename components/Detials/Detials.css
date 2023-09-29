@@ -1,0 +1,89 @@
+.detail {
+  width: 85%;
+  margin: auto;
+  margin-top: 5%;
+  opacity: 100;
+  transform: translateY(-2rem);
+  transition: all 400ms;
+}
+
+.hidden {
+  transition: all 400ms;
+  opacity: 0;
+  transform: translateY(2rem);
+}
+
+.job-type {
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(180, 180, 16);
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 10%;
+}
+
+.job-type-image {
+  width: 10%;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.detials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detials b {
+  text-align: left;
+  width: 70%;
+}
+
+.skills {
+  /* background-color: aqua; */
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .first {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .image {
+    margin: auto;
+    border-radius: 10%;
+  }
+
+  .job-type {
+    width: 50%;
+    align-items: center;
+  }
+
+  .detials {
+    flex-direction: column;
+  }
+
+  .detials b {
+    width: 100%;
+  }
+  .skills {
+    width: 100%;
+  }
+
+  .detail {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .first {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 465px) {
+  .first {
+    font-size: small;
+  }
+}

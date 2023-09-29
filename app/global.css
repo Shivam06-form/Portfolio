@@ -1,16 +1,16 @@
 body {
-  background-color: grey;
-}
-
-summary {
-  margin: auto;
-  margin-top: 2%;
-  color: whitesmoke;
-  width: 95%;
+  background-color: white;
 }
 
 .image {
   display: flex;
   margin: auto;
   justify-content: center;
+}
+
+.Divider {
+  background-color: black;
+  height: 1px;
+  margin-top: 16%;
+  margin-bottom: 5%;
 }

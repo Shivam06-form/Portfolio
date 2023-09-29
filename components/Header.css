@@ -8,7 +8,7 @@
 .header header {
   text-align: center;
   display: flex;
-  background-color: rgba(148, 75, 7, 0.658);
+  /* background-color: rgba(148, 75, 7, 0.658); */
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +26,7 @@
 }
 
 .list li {
-  color: rgba(245, 222, 179, 0.781);
+  color: rgba(31, 30, 28, 0.781);
   cursor: pointer;
   transition: all 700ms;
 }

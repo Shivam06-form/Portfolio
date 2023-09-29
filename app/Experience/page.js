@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import { Fragment } from "react";
 import "./EXPERINCE.css";
 import Link from "next/link";
+import Divider from "@/components/Divider";
 
 export default function Experience() {
   return (
@@ -13,7 +14,7 @@ export default function Experience() {
         <title>Experience</title>
         <meta name="description" content="Experiences of NULLCLASS" />
       </metadata>
-      <Header />
+      <Header />    <Divider  style={{marginTop:"1%"}} />
       <ul className="EXPERINCE">
         <li>
           <div>REACTJS</div>

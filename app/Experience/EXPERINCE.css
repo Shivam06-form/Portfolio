@@ -1,6 +1,5 @@
 .EXPERINCE {
-  background-color: rgba(0, 0, 0, 0.664);
-  color: antiquewhite;
+  color: rgba(0, 0, 0, 0.664);
   /* list-style: none; */
   display: flex;
   flex-direction: column;

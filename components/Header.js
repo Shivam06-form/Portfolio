@@ -12,7 +12,7 @@ const Header = () => {
             window.location.href = "/";
           }}
         >
-          Portfolio
+          SHIVAM
         </div>
         <div className="list">
           <li
