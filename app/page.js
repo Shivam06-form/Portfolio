@@ -8,8 +8,6 @@ import React, { Fragment, useRef, useState } from "react";
 export default function Page() {
   const MoveToRef = useRef();
 
-  console.log(MoveToRef)
-
   return (
     <Fragment>
       <metadata>

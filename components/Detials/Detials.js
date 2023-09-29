@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { Fragment, useRef, useState } from "react";
+import React, { Fragment, useEffect, useRef, useState } from "react";
 import react from "../Images/react.png";
 import "./Detials.css";
 import Divider from "../Divider";
@@ -9,11 +9,15 @@ const Detials = ({ MoveToRef }) => {
 
   const [showDetials, setShowDetials] = useState(false);
 
-  window.addEventListener("scroll", (e) => {
-    setShowDetials(
-      +window.scrollY + 300 > Ref.current.getBoundingClientRect().top
-    );
-  });
+  useEffect(() => {
+    if (window) {
+      window.addEventListener("scroll", (e) => {
+        setShowDetials(
+          +window.scrollY + 300 > Ref.current.getBoundingClientRect().top
+        );
+      });
+    }
+  }, []);
 
   return (
     <Fragment>
