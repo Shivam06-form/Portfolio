@@ -4,8 +4,8 @@
   "/Experience/page": "/Experience",
   "/Qualification/page": "/Qualification",
   "/WorkSamples/page": "/WorkSamples",
-  "/api/route": "/api",
-  "/Intership/Udemy/page": "/Intership/Udemy",
   "/Intership/NullClasses/page": "/Intership/NullClasses",
-  "/Intership/intershala/page": "/Intership/intershala"
+  "/Intership/intershala/page": "/Intership/intershala",
+  "/Intership/Udemy/page": "/Intership/Udemy",
+  "/api/route": "/api"
 }

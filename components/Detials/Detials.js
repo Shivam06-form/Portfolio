@@ -13,11 +13,12 @@ const Detials = ({ MoveToRef }) => {
     if (window) {
       window.addEventListener("scroll", (e) => {
         setShowDetials(
-          +window.scrollY + 300 > Ref.current.getBoundingClientRect().top
+          +window.scrollY + MoveToRef.current.getBoundingClientRect().top >=
+            MoveToRef.current.getBoundingClientRect().top
         );
       });
     }
-  }, []);
+  }, [MoveToRef]);
 
   return (
     <Fragment>
