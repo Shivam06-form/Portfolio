@@ -13,7 +13,7 @@ export default function Graducation() {
         <meta name="description" content="Qualifications of Shivam Bhagwat" />
       </metadata>
       <Header />
-      <Divider  style={{marginTop:"1%"}} />
+      <Divider style={{ marginTop: "1%" }} />
       <div className="graducation">
         <ul>
           <li>

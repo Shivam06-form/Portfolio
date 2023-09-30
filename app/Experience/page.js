@@ -14,7 +14,7 @@ export default function Experience() {
         <title>Experience</title>
         <meta name="description" content="Experiences of NULLCLASS" />
       </metadata>
-      <Header />    <Divider  style={{marginTop:"1%"}} />
+      <Header /> <Divider style={{ marginTop: "1%" }} />
       <ul className="EXPERINCE">
         <li>
           <div>REACTJS</div>

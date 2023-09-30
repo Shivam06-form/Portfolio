@@ -1,13 +1,21 @@
-import React from "react";
-
+import React, { Fragment } from "react";
 import "./Header.css";
+import Link from "next/link";
 
 const Header = () => {
+  const ListItems = [
+    { id: 1, name: "Qualification" },
+    { id: 2, name: "WorkSamples" },
+    { id: 3, name: "Experience" },
+  ];
+
+  const pathname = window.location.pathname;
+
   return (
     <div className="header">
       <header>
         <div
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer", fontSize: "larger" }}
           onClick={() => {
             window.location.href = "/";
           }}
@@ -15,28 +23,22 @@ const Header = () => {
           SHIVAM
         </div>
         <div className="list">
-          <li
-            onClick={() => {
-              window.location.href = "/Qualification";
-            }}
-          >
-            {" "}
-            Qualification
-          </li>
-          <li
-            onClick={() => {
-              window.location.href = "/WorkSamples";
-            }}
-          >
-            Work Samples
-          </li>
-          <li
-            onClick={() => {
-              window.location.href = "/Experience";
-            }}
-          >
-            Experience{" "}
-          </li>
+          {ListItems.map((list) => {
+            return (
+              <Fragment key={list.id}>
+                <li
+                  className={`${
+                    pathname === `/${list.name}` ? "list--selected " : ""
+                  }  `}
+                  onClick={() => {
+                    window.location.href = `/${list.name}`;
+                  }}
+                >
+                  {list.name}
+                </li>
+              </Fragment>
+            );
+          })}
         </div>
       </header>
     </div>

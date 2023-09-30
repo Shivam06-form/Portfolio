@@ -8,7 +8,6 @@
 .header header {
   text-align: center;
   display: flex;
-  /* background-color: rgba(148, 75, 7, 0.658); */
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -17,12 +16,11 @@
 .list {
   display: flex;
   list-style: none;
-  width: 55%;
+  width: 45%;
   justify-content: space-between;
-  margin-right: auto;
-  margin-left: auto;
   height: fit-content;
   padding: 10px;
+  /* background-color: aqua; */
 }
 
 .list li {
@@ -36,7 +34,12 @@
   transition: all 700ms;
 }
 
-@media (max-width: 765px) {
+.list--selected {
+  border-bottom-style: groove;
+  border-radius: 1px;
+}
+
+@media (max-width: 768px) {
   .header header {
     flex-direction: column;
     height: fit-content;
@@ -50,7 +53,9 @@
   }
 
   .list li {
- margin-top: 10px;
-    width: 100%;
+    margin-top: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
