@@ -9,7 +9,7 @@ const Header = () => {
     { id: 3, name: "Experience" },
   ];
 
-  const pathname = window.location.pathname;
+  // const pathname = window.location.pathname;
 
   return (
     <div className="header">
@@ -27,9 +27,9 @@ const Header = () => {
             return (
               <Fragment key={list.id}>
                 <li
-                  className={`${
-                    pathname === `/${list.name}` ? "list--selected " : ""
-                  }  `}
+                  // className={`${
+                  //   pathname === `/${list.name}` ? "list--selected " : ""
+                  // }  `}
                   onClick={() => {
                     window.location.href = `/${list.name}`;
                   }}
