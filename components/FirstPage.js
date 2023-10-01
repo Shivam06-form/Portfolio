@@ -30,13 +30,12 @@ const FirstPage = ({ moveTo }) => {
             More about me ⬇
           </button>
         </summary>
-
         <Image
           src={ProfileImage}
           alt="Picture of the author"
-          className="image"
+          className="image card"
           priority
-        />
+        />{" "}
       </div>
     </Fragment>
   );

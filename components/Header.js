@@ -15,7 +15,7 @@ const Header = () => {
     <div className="header">
       <header>
         <div
-          style={{ cursor: "pointer", fontSize: "larger" }}
+          className="header-name"
           onClick={() => {
             window.location.href = "/";
           }}

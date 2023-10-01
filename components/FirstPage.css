@@ -9,9 +9,6 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.first b {
-  color: rgba(10, 29, 2, 0.719);
-}
 .summary {
   width: 40%;
   font-size: medium;
@@ -25,6 +22,7 @@
 
 .summary h1 {
   color: #000;
+  text-shadow: #898b898a 3px 3px 3px;
 }
 
 .summary button {
