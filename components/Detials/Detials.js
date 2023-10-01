@@ -9,14 +9,20 @@ const Detials = ({ MoveToRef }) => {
 
   const [showDetials, setShowDetials] = useState(false);
 
+  const revelSection = function (entries, observer) {
+    const [entry] = entries;
+    if (entry.isIntersecting) {
+      setShowDetials(true);
+    }
+  };
+
   useEffect(() => {
-    if (window) {
-      window.addEventListener("scroll", (e) => {
-        setShowDetials(
-          +window.scrollY + MoveToRef.current.getBoundingClientRect().top >=
-            MoveToRef.current.getBoundingClientRect().top
-        );
-      });
+    const sectionObserver = new IntersectionObserver(revelSection, {
+      root: null,
+      threshold: 0.15,
+    });
+    if (MoveToRef) {
+      sectionObserver.observe(MoveToRef.current);
     }
   }, [MoveToRef]);
 
