@@ -15,9 +15,9 @@ const Education = () => {
   const EducationList = [
     {
       id: 1,
-      name: "GRADUCATION",
+      name: "GRADUATION",
       image: IGNOU,
-      info: "BSC GRADUCATE (2018-2023)",
+      info: "BSC GRADUATE (2018-2023)",
     },
     {
       id: 2,
