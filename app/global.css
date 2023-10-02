@@ -8,6 +8,17 @@ body {
   justify-content: center;
 }
 
+.show {
+  transform: translateY(-2rem);
+  transition: all 400ms;
+}
+
+.hidden {
+  transition: all 400ms;
+  opacity: 0;
+  transform: translateY(2rem);
+}
+
 .Divider {
   background-color: black;
   height: 1px;
@@ -16,12 +27,27 @@ body {
 }
 
 .card {
-  margin: auto;
+  /* margin: auto; */
   background: rgb(223, 225, 235);
   border-radius: 50px;
+  transform-style: preserve-3d;
+  transition: all 500ms;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.Container-Cover {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  width: 95%;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0%;
 }

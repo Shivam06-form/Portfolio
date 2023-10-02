@@ -4,14 +4,6 @@
   margin-top: 5%;
   margin-bottom: 5%;
   opacity: 100;
-  transform: translateY(-2rem);
-  transition: all 400ms;
-}
-
-.hidden {
-  transition: all 400ms;
-  opacity: 0;
-  transform: translateY(2rem);
 }
 
 .job-type {

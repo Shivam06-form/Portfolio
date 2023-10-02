@@ -3,33 +3,19 @@ import React, { Fragment, useEffect, useRef, useState } from "react";
 import react from "../Images/react.png";
 import "./Detials.css";
 import Divider from "../Divider";
+import { Observer } from "../Custom/Observer";
 
 const Detials = ({ MoveToRef }) => {
   const Ref = useRef();
-
-  const [showDetials, setShowDetials] = useState(false);
-
-  const revelSection = function (entries, observer) {
-    const [entry] = entries;
-    if (entry.isIntersecting) {
-      setShowDetials(true);
-    }
-  };
-
-  useEffect(() => {
-    const sectionObserver = new IntersectionObserver(revelSection, {
-      root: null,
-      threshold: 0.15,
-    });
-    if (MoveToRef) {
-      sectionObserver.observe(MoveToRef.current);
-    }
-  }, [MoveToRef]);
+  const getObserver = Observer({ RefProp: MoveToRef });
 
   return (
     <Fragment>
       <Divider DividerRef={Ref} style={{ marginTop: "10%" }} />
-      <div className={`${showDetials ? "detail" : "hidden"}`} ref={MoveToRef}>
+      <div
+        className={`${getObserver.showDetials ? "detail show" : "hidden"}`}
+        ref={MoveToRef}
+      >
         <ul className="job-type">
           <Image src={react} alt="name" className="job-type-image" priority />
           <div> WEB DEVELOPER</div>

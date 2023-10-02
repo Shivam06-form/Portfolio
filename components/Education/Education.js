@@ -1,0 +1,58 @@
+import React, { Fragment, useRef } from "react";
+import Divider from "../Divider";
+import "./Education.css";
+import Image from "next/image";
+import NIOS from "../Images/NIOS.png";
+import IGNOU from "../Images/IGNOU.png";
+import KVS from "../Images/KVS.png";
+import { Observer } from "../Custom/Observer";
+
+const Education = () => {
+  const Ref = useRef();
+
+  const getObserver = Observer({ RefProp: Ref });
+
+  const EducationList = [
+    {
+      id: 1,
+      name: "GRADUCATION",
+      image: IGNOU,
+      info: "BSC GRADUCATE (2018-2023)",
+    },
+    {
+      id: 2,
+      name: "12th",
+      image: NIOS,
+      info: "12th pass with 50% (2017)",
+    },
+    { id: 3, name: "10th", image: KVS, info: "10th pass with 70% (2014)" },
+  ];
+
+  return (
+    <Fragment>
+      <Divider style={{ marginBottom: "10%" }} />
+
+      <div
+        className={`${getObserver.showDetials ? "container show" : "hidden"}`}
+        ref={Ref}
+      >
+        {EducationList.map((education) => {
+          return (
+            <div className="Education card" key={education.id}>
+              <div className="front">{education.name}</div>
+              <div className="back">
+                <div className="back-info">
+                  <Image alt={education.name} src={education.image} />
+
+                  <summary>{education.info}</summary>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </Fragment>
+  );
+};
+
+export default Education;
