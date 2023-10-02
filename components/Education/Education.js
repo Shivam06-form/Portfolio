@@ -30,26 +30,27 @@ const Education = () => {
 
   return (
     <Fragment>
-      <Divider style={{ marginBottom: "10%" }} />
+      <Divider />
+      <div className="Container-Cover ">
+        <div
+          className={`${getObserver.showDetials ? "container show" : "hidden"}`}
+          ref={Ref}
+        >
+          {EducationList.map((education) => {
+            return (
+              <div className="Education" key={education.id}>
+                <div className="front">{education.name}</div>
+                <div className="back">
+                  <div className="back-info">
+                    <Image alt={education.name} src={education.image} />
 
-      <div
-        className={`${getObserver.showDetials ? "container show" : "hidden"}`}
-        ref={Ref}
-      >
-        {EducationList.map((education) => {
-          return (
-            <div className="Education card" key={education.id}>
-              <div className="front">{education.name}</div>
-              <div className="back">
-                <div className="back-info">
-                  <Image alt={education.name} src={education.image} />
-
-                  <summary>{education.info}</summary>
+                    <summary>{education.info}</summary>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </Fragment>
   );

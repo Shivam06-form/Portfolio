@@ -2,10 +2,10 @@
   "/_not-found": "/_not-found",
   "/page": "/",
   "/Experience/page": "/Experience",
-  "/Qualification/page": "/Qualification",
   "/WorkSamples/page": "/WorkSamples",
   "/api/route": "/api",
-  "/Intership/NullClasses/page": "/Intership/NullClasses",
+  "/Qualification/page": "/Qualification",
   "/Intership/Udemy/page": "/Intership/Udemy",
+  "/Intership/NullClasses/page": "/Intership/NullClasses",
   "/Intership/intershala/page": "/Intership/intershala"
 }
