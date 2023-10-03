@@ -39,7 +39,7 @@ const Detials = ({ MoveToRef }) => {
           <b> 2 years</b>
         </ul>
         <ul className="detials">
-          <div> CTC : </div> <b> 15,000 Rs- 20,000 Rs</b>
+          <div> CTC : </div> <b> 19,000 Rs- Or Higher </b>
         </ul>
         <ul className="detials">
           <div> ADDRESS : </div>

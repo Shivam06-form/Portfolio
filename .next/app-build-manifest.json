@@ -23,7 +23,7 @@
       "static/chunks/176-3a9909898172babc.js",
       "static/chunks/964-2b2e11df59735aea.js",
       "static/css/72dcd0d018040c3e.css",
-      "static/chunks/app/page-60c81e8937fb2c6f.js"
+      "static/chunks/app/page-f60c714b18e5d661.js"
     ],
     "/Experience/page": [
       "static/chunks/webpack-79d6f898e2646a6d.js",
@@ -52,14 +52,6 @@
       "static/css/a4f4a976fa8763fe.css",
       "static/chunks/app/WorkSamples/page-3f7d40bcba872a6c.js"
     ],
-    "/Intership/NullClasses/page": [
-      "static/chunks/webpack-79d6f898e2646a6d.js",
-      "static/chunks/fd9d1056-010f8d1ef3f09f06.js",
-      "static/chunks/864-d37b481652910a75.js",
-      "static/chunks/main-app-4bb3b00a500b4a46.js",
-      "static/chunks/964-2b2e11df59735aea.js",
-      "static/chunks/app/Intership/NullClasses/page-b0de6f46472afa92.js"
-    ],
     "/Intership/Udemy/page": [
       "static/chunks/webpack-79d6f898e2646a6d.js",
       "static/chunks/fd9d1056-010f8d1ef3f09f06.js",
@@ -67,6 +59,14 @@
       "static/chunks/main-app-4bb3b00a500b4a46.js",
       "static/chunks/964-2b2e11df59735aea.js",
       "static/chunks/app/Intership/Udemy/page-645ad9ae1bc834df.js"
+    ],
+    "/Intership/NullClasses/page": [
+      "static/chunks/webpack-79d6f898e2646a6d.js",
+      "static/chunks/fd9d1056-010f8d1ef3f09f06.js",
+      "static/chunks/864-d37b481652910a75.js",
+      "static/chunks/main-app-4bb3b00a500b4a46.js",
+      "static/chunks/964-2b2e11df59735aea.js",
+      "static/chunks/app/Intership/NullClasses/page-b0de6f46472afa92.js"
     ],
     "/Intership/intershala/page": [
       "static/chunks/webpack-79d6f898e2646a6d.js",
