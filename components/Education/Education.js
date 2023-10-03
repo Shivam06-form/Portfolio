@@ -23,14 +23,14 @@ const Education = () => {
       id: 2,
       name: "12th",
       image: NIOS,
-      info: "12th pass with 50% (2017)",
+      info: "12th NIOS 50% (2017)",
     },
-    { id: 3, name: "10th", image: KVS, info: "10th pass with 70% (2014)" },
+    { id: 3, name: "10th", image: KVS, info: "10th CBSE 70% (2014)" },
   ];
 
   return (
     <Fragment>
-      <Divider />
+      {/* <Divider /> */}
       <div className="Container-Cover ">
         <div
           className={`${getObserver.showDetials ? "container show" : "hidden"}`}

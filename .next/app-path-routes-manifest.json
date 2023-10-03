@@ -3,8 +3,8 @@
   "/page": "/",
   "/Experience/page": "/Experience",
   "/Qualification/page": "/Qualification",
-  "/api/route": "/api",
   "/WorkSamples/page": "/WorkSamples",
+  "/api/route": "/api",
   "/Intership/NullClasses/page": "/Intership/NullClasses",
   "/Intership/Udemy/page": "/Intership/Udemy",
   "/Intership/intershala/page": "/Intership/intershala"
