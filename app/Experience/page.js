@@ -13,6 +13,10 @@ export default function Experience() {
       <metadata>
         <title>Experience</title>
         <meta name="description" content="Experiences of NULLCLASS" />
+        <link
+          rel="icon"
+          href="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_E_red-128.png"
+        />
       </metadata>
       <Header /> <Divider style={{ marginTop: "1%" }} />
       <ul className="EXPERINCE">

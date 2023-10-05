@@ -33,6 +33,10 @@ export default function WorkSamples() {
       <metadata>
         <title>Work Samples</title>
         <meta name="description" content="Some of my work samples" />
+        <link
+          rel="icon"
+          href="https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_W_red-2-256.png"
+        />
       </metadata>
       <Header /> <Divider style={{ marginTop: "1%" }} />
       <div className="Work">

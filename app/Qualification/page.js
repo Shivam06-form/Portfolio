@@ -11,6 +11,10 @@ export default function Graducation() {
       <metadata>
         <title>Qualification</title>
         <meta name="description" content="Qualifications of Shivam Bhagwat" />
+        <link
+          rel="icon"
+          href="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_Q_red-512.png"
+        />
       </metadata>
       <Header />
       <Divider style={{ marginTop: "1%" }} />
