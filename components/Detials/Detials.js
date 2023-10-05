@@ -29,13 +29,13 @@ const Detials = ({ MoveToRef }) => {
         </ul>
         <ul className="detials">
           <div> QUALIFICATION :</div>
-          <b> BSC PHYSICS GRADUATE FROM IGNOU UIVERSITY</b>
+          <b> BSC PHYSICS GRADUATE FROM IGNOU UNIVERSITY</b>
         </ul>
         <ul className="detials">
-          <div>JOB EXPERINCE:</div> <b> FRESHER</b>
+          <div>JOB EXPERIENCE:</div> <b> FRESHER</b>
         </ul>
         <ul className="detials">
-          <div> EXPERINCE:</div>
+          <div> EXPERIENCE:</div>
           <b> 2 years</b>
         </ul>
         <ul className="detials">

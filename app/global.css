@@ -1,6 +1,7 @@
 body {
   background-color: transparent;
-  /* width: 100%; */
+  /* width: fit-content; */
+  height: fit-content;
 }
 
 .image {

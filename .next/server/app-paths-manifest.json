@@ -5,7 +5,7 @@
   "/Qualification/page": "app/Qualification/page.js",
   "/WorkSamples/page": "app/WorkSamples/page.js",
   "/api/route": "app/api/route.js",
-  "/Intership/Udemy/page": "app/Intership/Udemy/page.js",
   "/Intership/NullClasses/page": "app/Intership/NullClasses/page.js",
+  "/Intership/Udemy/page": "app/Intership/Udemy/page.js",
   "/Intership/intershala/page": "app/Intership/intershala/page.js"
 }

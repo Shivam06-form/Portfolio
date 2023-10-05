@@ -18,6 +18,7 @@
 
 .job-type-image {
   width: 10%;
+  /* height: 40rem; */
   height: fit-content;
   margin-top: auto;
   margin-bottom: auto;

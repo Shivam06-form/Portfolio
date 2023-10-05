@@ -16,6 +16,10 @@ export default function Page() {
       <metadata>
         <title>Portfolio</title>
         <meta name="description" content="Portfolio of Shivam Bhagwat" />
+        <link
+          rel="icon"
+          href="https://cdn-icons-png.flaticon.com/512/8370/8370972.png"
+        />
       </metadata>
       <Header />
       <FirstPage moveTo={MoveToRef} />

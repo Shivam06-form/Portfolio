@@ -24,7 +24,117 @@
   flex-direction: column;
 }
 
+.fakedata-conatainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.fakedata-card {
+  height: 15rem;
+  width: 20%;
+  border-style: groove;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  text-align: center;
+}
+
+.card-2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+}
+
+.card_ {
+  background-color: rgb(40, 70, 136);
+  height: 2rem;
+  width: 120%;
+  transform: translate(-10%, -6%);
+  border-top-left-radius: 15%;
+  border-top-right-radius: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_1,
+.card_2 {
+  width: 9%;
+  height: 100%;
+}
+
+.card_2 {
+  width: 7%;
+}
+
+.card_1:first-child {
+  transform: translateY(24px);
+  background-color: rgba(18, 58, 145, 0.664);
+  border-bottom-left-radius: 100%;
+  height: 50%;
+}
+.card_2 :first-child {
+  background-color: rgba(18, 58, 145, 0.664);
+  transform: translateY(24px) rotateY(180deg);
+  border-bottom-left-radius: 100%;
+  height: 50%;
+  width: 100%;
+}
+
+.foot_ {
+  background-color: rgb(40, 70, 136);
+  height: 2rem;
+  width: 102%;
+  transform: translate(-1%, 5%);
+  border-bottom-right-radius: 10%;
+  display: flex;
+  justify-content: right;
+}
+
+.foot_1:first-child {
+  right: 0;
+  transform: translate(15%, -2%);
+  width: 0%;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 1% solid rgb(12, 37, 90);
+  border-bottom: 40px solid rgb(12, 37, 90);
+}
+
+.foot_2,
+.foot_3 {
+  background-color: rgba(31, 31, 32, 0.664);
+  height: 10px;
+  width: 7px;
+  transform: translate(-8px);
+}
+
+.foot_3 {
+  transform: translate(-50px, 22px);
+  height: 8px;
+  width: 8px;
+}
+
+@media (max-width: 860px) {
+  .fakedata-card {
+    width: 25%;
+  }
+}
+
 @media (max-width: 760px) {
+  .fakedata-conatainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .fakedata-card {
+    width: 60%;
+    /* height: 200%; */
+  }
+
   .Work {
     width: 95%;
   }
@@ -35,6 +145,6 @@
 
   .Work ul {
     height: 100%;
-    gap:3rem
+    gap: 3rem;
   }
 }

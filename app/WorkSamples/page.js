@@ -7,6 +7,27 @@ import "./WorkSamples.css";
 import Divider from "@/components/Divider";
 
 export default function WorkSamples() {
+  const FakeDate = [
+    {
+      id: 1,
+      name: "REACT",
+
+      info: "2+ years of experince",
+    },
+    {
+      id: 2,
+      name: "NODEJS",
+
+      info: "1+ year of experince",
+    },
+    {
+      id: 3,
+      name: "REACT-NATIVE",
+
+      info: "1+ year of experince",
+    },
+  ];
+
   return (
     <Fragment>
       <metadata>
@@ -59,6 +80,35 @@ export default function WorkSamples() {
             </Link>
           </li>
         </ul>
+      </div>
+      <div style={{ width: "80%", margin: "auto" }}>
+        <h1>SAMPLE CSS WORK</h1>
+        <div className="fakedata-conatainer">
+          {FakeDate.map((data) => {
+            return (
+              <div key={data.id} className="fakedata-card">
+                <div className="card_">
+                  <div className="card_1">
+                    <div></div>
+                  </div>
+                  <div className="card_2">
+                    <div></div>
+                  </div>
+                </div>
+                <div className="card-2">
+                  <b> {data.name}</b> <summery> {data.info}</summery>{" "}
+                </div>
+                <div className="foot_">
+                  <div className="foot_1">
+                    <div></div>
+                    <div className="foot_2"></div>
+                    <div className="foot_3"></div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </Fragment>
   );
