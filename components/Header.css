@@ -10,6 +10,7 @@
   font-size: larger;
   font-weight: bolder;
   text-shadow: gray 1px 2px 1px;
+  text-decoration: dotted;
 }
 
 .header header {
@@ -29,13 +30,14 @@
   padding: 10px;
 }
 
-.list li {
+.list a {
   color: rgba(31, 30, 28, 0.781);
   cursor: pointer;
   transition: all 700ms;
+  text-decoration: none;
 }
 
-.list li:hover {
+.list a:hover {
   color: rgba(214, 14, 14, 0.781);
   transition: all 700ms;
 }
@@ -58,7 +60,7 @@
     width: 95%;
   }
 
-  .list li {
+  .list a {
     margin-top: 10px;
     width: fit-content;
     margin-left: auto;

@@ -14,28 +14,15 @@ const Header = () => {
   return (
     <div className="header">
       <header>
-        <div
-          className="header-name"
-          onClick={() => {
-            window.location.href = "/";
-          }}
-        >
+        <Link href="/" className="header-name">
           SHIVAM
-        </div>
+        </Link>
+
         <div className="list">
           {ListItems.map((list) => {
             return (
               <Fragment key={list.id}>
-                <li
-                  // className={`${
-                  //   pathname === `/${list.name}` ? "list--selected " : ""
-                  // }  `}
-                  onClick={() => {
-                    window.location.href = `/${list.name}`;
-                  }}
-                >
-                  {list.name}
-                </li>
+                <Link href={`/${list.name}`}> {list.name}</Link>
               </Fragment>
             );
           })}
