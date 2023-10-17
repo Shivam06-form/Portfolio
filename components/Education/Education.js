@@ -23,9 +23,9 @@ const Education = () => {
       id: 2,
       name: "12th",
       image: NIOS,
-      info: "12th NIOS 50% (2017)",
+      info: "12th NIOS (2017)",
     },
-    { id: 3, name: "10th", image: KVS, info: "10th CBSE 70% (2014)" },
+    { id: 3, name: "10th", image: KVS, info: "10th CBSE (2014)" },
   ];
 
   return (

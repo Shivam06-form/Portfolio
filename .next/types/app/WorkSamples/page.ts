@@ -1,4 +1,4 @@
-// File: E:\html\Java Script 3\Practice\NextjsPaytm\paytm-payment\app\WorkSamples\page.js
+// File: E:\html\Java Script 3\Practice\NextjsPaytm\Portfolio\app\WorkSamples\page.js
 import * as entry from '../../../../app/WorkSamples/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

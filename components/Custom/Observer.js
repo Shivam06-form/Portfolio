@@ -5,6 +5,7 @@ export const Observer = ({ RefProp }) => {
 
   const revelSection = function (entries, observer) {
     const [entry] = entries;
+    // console.log(entries[0].isIntersecting)
     if (entry.isIntersecting) {
       setShowDetials(true);
     }

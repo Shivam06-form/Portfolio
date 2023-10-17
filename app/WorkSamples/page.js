@@ -7,7 +7,7 @@ import "./WorkSamples.css";
 import Divider from "@/components/Divider";
 
 export default function WorkSamples() {
-  const FakeDate = [
+  const CssDate = [
     {
       id: 1,
       name: "REACT",
@@ -86,11 +86,11 @@ export default function WorkSamples() {
         </ul>
       </div>
       <div style={{ width: "80%", margin: "auto" }}>
-        <h1>SAMPLE CSS WORK</h1>
-        <div className="fakedata-conatainer">
-          {FakeDate.map((data) => {
+        <h1>CSS WORK</h1>
+        <div className="cssdata-conatainer">
+          {CssDate.map((data) => {
             return (
-              <div key={data.id} className="fakedata-card">
+              <div key={data.id} className="cssdata-card">
                 <div className="card_">
                   <div className="card_1">
                     <div></div>
