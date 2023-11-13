@@ -7,10 +7,11 @@
   margin-top: 4%;
   color: goldenrod;
   font-family: "Times New Roman", Times, serif;
+  /* background-color: #F1ECCE */
 }
 
 .summary {
-  width: 40%;
+  width: 100%;
   font-size: medium;
   padding: 4%;
   color: #504c4c8e;
@@ -22,15 +23,22 @@
 
 .summary h1 {
   color: #000;
-  text-shadow: #898b898a 3px 3px 3px;
+  /* text-shadow: #898b898a 3px 3px 3px; */
+}
+
+
+.summary h2 {
+  color: #000;
+  margin: 0;
+  font-size: x-large;
 }
 
 .summary button {
-  width: 40%;
+  width: 20%;
   margin-top: 2%;
   background-color: transparent;
   color: rgb(31, 30, 30);
-  border-radius: 5%;
+  border-radius: 20%;
   padding: 1%;
   font-size: medium;
   cursor: pointer;
@@ -44,11 +52,44 @@
 }
 
 .image {
-  border-radius: 100%;
+  border-radius: 1px;
   width: 20%;
-  height: 20%;
+  height: 14.5rem;
   background-color: aqua;
 }
+
+.skills-cover {
+  /* background-color: azure; */
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.skills {
+  display: block;
+  width: 75%;
+
+}
+
+.skills h2 {
+  margin: auto;
+  text-align: center;
+}
+
+.skills div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 10rem;
+}
+
+.skills button {
+  background-color: #8FB8DE;
+  padding: auto;
+}
+
 
 @media (max-width: 768px) {
   .first {

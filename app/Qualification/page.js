@@ -21,23 +21,23 @@ export default function Graducation() {
       <div className="graducation">
         <ul>
           <li>
-            <div> Bachelor of Science (B.Sc)</div>
-            <b>Ignou University 2018 - 2023</b>
+            <div>{`Bachelor's`} of Science (B.Sc)</div>
+            <b>IGNOU 2018 - 2023</b>
           </li>
           <li>
             <div> Senior Secondary (XII)</div>
-            <b>NIOS board Year of completion: 2017 Percentage: 52.00%</b>
+            <b>NIOS board  2017</b>
           </li>
           <li>
             <div> Secondary (X)</div>
-            <b>(CBSC board) Year of completion: 2014 Percentage: 70.00%</b>
+            <b>(CBSC board) 2014</b>
           </li>
           <li>
-            <div> Cources</div>
+            <div> Courses</div>
             <b>
-              I have done cources React.js , React-Native , Nodejs , HTML/CSS
-              ,MERN , Javascript from Udemy and Intershala and i still learning
-              Nextjs and other new skills
+              I know React.js , React-Native , Nodejs , HTML/CSS
+              , MERN , Javascript and
+              Nextjs
             </b>
           </li>
         </ul>

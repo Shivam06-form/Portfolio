@@ -1,4 +1,4 @@
-// File: E:\html\Java Script 3\Practice\NextjsPaytm\Portfolio\app\Qualification\page.js
+// File: F:\html\Java Script 3\Practice\NextjsPaytm\Portfolio\app\Qualification\page.js
 import * as entry from '../../../../app/Qualification/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

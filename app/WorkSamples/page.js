@@ -43,7 +43,7 @@ export default function WorkSamples() {
         <ul>
           <li>
             <div>Gaming 🎮 App (Demo) </div>
-            <summary>Build using Reactjs</summary>
+            <summary>Built using Reactjs</summary>
             <Link
               href="https://buyitcheap-5ac3f.firebaseapp.com/#/"
               target="_blank"
@@ -54,7 +54,7 @@ export default function WorkSamples() {
           <li>
             <div>job-less </div>
             <summary>
-              Build using Reactjs and Nodejs (Just for Payment Part)
+              Built using Reactjs and Nodejs (Just for Payment Part)
             </summary>
             <Link href="https://job-less-12094.web.app/" target="_blank">
               https://job-less-12094.web.app/
@@ -64,7 +64,7 @@ export default function WorkSamples() {
           <li>
             <div>Threats and Trends shopping app </div>
             <summary>
-              Build using Reactjs and Nodejs (Just for Payment Part)
+              Built using Reactjs and Nodejs (Just for Payment Part)
             </summary>
             <Link href="https://threads-cb101.web.app/" target="_blank">
               https://threads-cb101.web.app/
@@ -74,7 +74,7 @@ export default function WorkSamples() {
           <li>
             <div>Stack-overflow-demo </div>
             <summary>
-              Build using MERN (MongoDB , Express , REACTJS , NODEJS)
+              Built using MERN (MongoDB , Express , REACTJS , NODEJS)
             </summary>
             <Link
               href="https://stack-overflow-clone06.netlify.app/"

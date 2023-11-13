@@ -24,22 +24,19 @@ const Detials = ({ MoveToRef }) => {
           <div> Name: </div>
           <b> SHIVAM BHAGWAT</b>
         </ul>
-        <ul className="detials">
+        {/* <ul className="detials">
           <div> AGE: </div> <b> 25</b>
-        </ul>
+        </ul> */}
         <ul className="detials">
           <div> QUALIFICATION :</div>
-          <b> BSC PHYSICS GRADUATE FROM IGNOU UNIVERSITY</b>
+          <b> BSC PHYSICS GRADUATE FROM IGNOU</b>
         </ul>
-        <ul className="detials">
+        {/* <ul className="detials">
           <div>JOB EXPERIENCE:</div> <b> FRESHER</b>
-        </ul>
+        </ul> */}
         <ul className="detials">
           <div> EXPERIENCE:</div>
-          <b> 2 years</b>
-        </ul>
-        <ul className="detials">
-          <div> CTC : </div> <b> 19,000 Rs- Or Higher </b>
+          <b> 2+ years</b>
         </ul>
         <ul className="detials">
           <div> ADDRESS : </div>
