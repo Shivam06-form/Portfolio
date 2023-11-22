@@ -83,6 +83,18 @@ export default function WorkSamples() {
               https://stack-overflow-clone06.netlify.app/
             </Link>
           </li>
+          <li>
+            <div>Tic-Tac-To Game</div>
+            <summary>
+              Built using React.js
+            </summary>
+            <Link
+              href="https://tic-tak-to-2.vercel.app/"
+              target="_blank"
+            >
+              https://tic-tak-to-2.vercel.app/
+            </Link>
+          </li>
         </ul>
       </div>
       <div style={{ width: "80%", margin: "auto" }}>
