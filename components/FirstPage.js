@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./FirstPage.css";
-import ProfileImage from "./Images/profile.jpg";
+import ProfileImage from "./Images/profile.jpeg";
 import Image from "next/image";
 import Divider from "./Divider";
 
@@ -14,7 +14,7 @@ const FirstPage = ({ moveTo }) => {
           {` I am 25 years old, and I have been
         learning web development since 2021. I have acquired skills in ReactJS,
         Node.js, React Native, HTML/CSS, and I'm looking forward to learning
-        more skills in the upcoming future. `}
+        more skills in the upcoming future.s `}
 
           <button
             onClick={() => {

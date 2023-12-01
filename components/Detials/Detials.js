@@ -11,7 +11,7 @@ const Detials = ({ MoveToRef }) => {
 
   return (
     <Fragment>
-      <Divider DividerRef={Ref} style={{ marginTop: "10%" }} />
+      <Divider style={{ marginTop: "10%" }} />
       <div
         className={`${getObserver.showDetials ? "detail show" : "hidden"}`}
         ref={MoveToRef}
