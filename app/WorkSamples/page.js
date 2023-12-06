@@ -45,7 +45,7 @@ export default function WorkSamples() {
             <div>Gaming 🎮 App (Demo) </div>
             <summary>Built using Reactjs</summary>
             <Link
-              href="https://buyitcheap-5ac3f.firebaseapp.com/#/"
+              href="https://next-gameinfo-app.vercel.app/"
               target="_blank"
             >
               https://buyitcheap-5ac3f.firebaseapp.com/#/{" "}
