@@ -12,10 +12,23 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/[id]/page": [
+    "/Qualification/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[id]/page.js"
+      "static/css/app/Qualification/page.css",
+      "static/chunks/app/Qualification/page.js"
+    ],
+    "/WorkSamples/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/WorkSamples/page.css",
+      "static/chunks/app/WorkSamples/page.js"
+    ],
+    "/Experience/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Experience/page.css",
+      "static/chunks/app/Experience/page.js"
     ]
   }
 }

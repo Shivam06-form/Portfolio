@@ -7,22 +7,23 @@
   margin-top: 4%;
   color: goldenrod;
   font-family: "Times New Roman", Times, serif;
-  /* background-color: #F1ECCE */
 }
 
 .summary {
   width: 100%;
-  font-size: medium;
+  font-size: x-large;
   padding: 4%;
   color: #504c4c8e;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   font-weight: 700;
+
 }
 
 .summary h1 {
   color: #000;
+  font-size:large;
   /* text-shadow: #898b898a 3px 3px 3px; */
 }
 

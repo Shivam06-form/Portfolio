@@ -36,7 +36,7 @@ const Detials = ({ MoveToRef }) => {
         </ul> */}
         <ul className="detials">
           <div> EXPERIENCE:</div>
-          <b> 2+ years</b>
+          <b> 3+ years</b>
         </ul>
         <ul className="detials">
           <div> ADDRESS : </div>

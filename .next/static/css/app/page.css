@@ -99,22 +99,23 @@
   margin-top: 4%;
   color: goldenrod;
   font-family: "Times New Roman", Times, serif;
-  /* background-color: #F1ECCE */
 }
 
 .summary {
   width: 100%;
-  font-size: medium;
+  font-size: x-large;
   padding: 4%;
   color: #504c4c8e;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   font-weight: 700;
+
 }
 
 .summary h1 {
   color: #000;
+  font-size:large;
   /* text-shadow: #898b898a 3px 3px 3px; */
 }
 
@@ -377,8 +378,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/global.css ***!
   \************************************************************************************************************************************************************************************************************************************************************/
 body {
-  background-color: transparent;
-  /* width: fit-content; */
+  background: linear-gradient(135deg, rgb(133, 129, 130) 0%, rgb(234, 207, 222) 51%, rgba(211, 171, 175, 0.731) 51%, rgba(239, 197, 202, 1) 100%);
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -435,4 +435,3 @@ h1 {
   font-weight: 700;
   color: rgba(63, 62, 62, 0.801);
 }
-

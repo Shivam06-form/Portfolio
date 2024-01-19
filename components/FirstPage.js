@@ -11,10 +11,8 @@ const FirstPage = ({ moveTo }) => {
       <div className="first">
         <summary className="summary">
           <h1>{"Hii, I'm Shivam Bhagwat"}</h1>
-          {` I am 25 years old, and I have been
-        learning web development since 2021. I have acquired skills in ReactJS,
-        Node.js, React Native, HTML/CSS, and I'm looking forward to learning
-        more skills in the upcoming future.s `}
+          {`I have acquired skills in ReactJS,
+        Node.js, React Native, HTML/CSS,Next.js`}
 
           <button
             onClick={() => {
