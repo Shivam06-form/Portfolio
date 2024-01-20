@@ -1,6 +1,21 @@
 body {
-  background: linear-gradient(135deg, rgb(133, 129, 130) 0%, rgb(234, 207, 222) 51%, rgba(211, 171, 175, 0.731) 51%, rgba(239, 197, 202, 1) 100%);
   height: fit-content;
+  animation: backgroundColor 5s infinite; 
+}
+
+
+@keyframes backgroundColor {
+  from {
+    background: linear-gradient(135deg, rgb(133, 129, 130) 0%, rgb(234, 207, 222) 51%, rgba(211, 171, 175, 0.731) 51%, rgba(239, 197, 202, 1) 100%);
+    /* transition: all ease-in 400ms; */
+  }
+
+
+
+  to {
+    background: linear-gradient(135deg, rgb(84, 81, 82) 0%, rgb(234, 207, 222) 51%, rgba(211, 171, 175, 0.897) 51%, rgba(239, 197, 202, 1) 100%);
+    /* transition: all ease-in-out 400ms; */
+  }
 }
 
 .image {

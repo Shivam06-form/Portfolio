@@ -22,27 +22,27 @@ export default function Experience() {
       <ul className="EXPERINCE">
         <li>
           <div>REACTJS</div>
-          <b> 2 years of Experience </b>
+          <b> 3 years of Experience </b>
         </li>
         <li>
           <div>NODEJS</div>
-          <b> 1 years of Experience </b>
-        </li>
-        <li>
-          <div>HTML/CSS</div>
           <b> 2 years of Experience </b>
         </li>
         <li>
+          <div>HTML/CSS</div>
+          <b> 3 years of Experience </b>
+        </li>
+        <li>
           <div>NEXTJS</div>
-          <b> 1 month of Experience and still learning </b>
+          <b> 1 year </b>
         </li>
         <li>
           <div>REACT-NATIVE</div>
-          <b> 1.5 year of Experience and still learning </b>
+          <b> 2 year of Experience and still learning </b>
         </li>
         <li>
           <div>MERN</div>
-          <b> 1.5 year of Experience and still learning </b>
+          <b> 2 year of Experience and still learning </b>
         </li>
         <li>
           <div>Certificates</div>
