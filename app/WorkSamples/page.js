@@ -12,19 +12,19 @@ export default function WorkSamples() {
       id: 1,
       name: "REACT",
 
-      info: "2+ years of experince",
+      info: "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.",
     },
     {
       id: 2,
       name: "NODEJS",
 
-      info: "1+ year of experince",
+      info: "Node.js is an open-source, cross-platform JavaScript runtime environment. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.",
     },
     {
       id: 3,
-      name: "REACT-NATIVE",
+      name: "Nextjs",
 
-      info: "1+ year of experince",
+      info: "1Next.js is a React-based, open-source web development framework that enables React-based web applications",
     },
   ];
 
@@ -43,17 +43,17 @@ export default function WorkSamples() {
         <ul>
           <li>
             <div>Gaming 🎮 App (Demo) </div>
-            <summary>Built using Reactjs</summary>
+            <summary style={{ color: "white" }}>Built using Nextjs</summary>
             <Link
               href="https://next-gameinfo-app.vercel.app/"
               target="_blank"
             >
-              https://buyitcheap-5ac3f.firebaseapp.com/#/{" "}
+              https://next-gameinfo-app.vercel.app/
             </Link>{" "}
           </li>
           <li>
             <div>job-less </div>
-            <summary>
+            <summary style={{ color: "white" }}>
               Built using Reactjs and Nodejs (Just for Payment Part)
             </summary>
             <Link href="https://job-less-12094.web.app/" target="_blank">
@@ -63,7 +63,7 @@ export default function WorkSamples() {
 
           <li>
             <div>Threats and Trends shopping app </div>
-            <summary>
+            <summary style={{ color: "white" }}>
               Built using Reactjs and Nodejs (Just for Payment Part)
             </summary>
             <Link href="https://threads-cb101.web.app/" target="_blank">
@@ -73,7 +73,7 @@ export default function WorkSamples() {
 
           <li>
             <div>Stack-overflow-demo </div>
-            <summary>
+            <summary style={{ color: "white" }}>
               Built using MERN (MongoDB , Express , REACTJS , NODEJS)
             </summary>
             <Link
@@ -85,7 +85,7 @@ export default function WorkSamples() {
           </li>
           <li>
             <div>Tic-Tac-To Game</div>
-            <summary>
+            <summary style={{ color: "white" }}>
               Built using React.js
             </summary>
             <Link
@@ -93,6 +93,18 @@ export default function WorkSamples() {
               target="_blank"
             >
               https://tic-tak-to-2.vercel.app/
+            </Link>
+          </li>
+          <li>
+            <div>Twitch-Clone</div>
+            <summary style={{ color: "white" }}>
+              Built using React.js
+            </summary>
+            <Link
+              href="https://twitch-site-clone.netlify.app/"
+              target="_blank"
+            >
+              https://twitch-site-clone.netlify.app/
             </Link>
           </li>
         </ul>
