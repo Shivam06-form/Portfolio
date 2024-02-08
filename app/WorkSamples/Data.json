@@ -1,0 +1,63 @@
+{
+    "CssData": [
+        {
+            "id": 1,
+            "name": "REACT",
+            "info": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript."
+        },
+        {
+            "id": 2,
+            "name": "NODEJS",
+            "info": "Node.js is an open-source, cross-platform JavaScript runtime environment. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser."
+        },
+        {
+            "id": 3,
+            "name": "Nextjs",
+            "info": "1Next.js is a React-based, open-source web development framework that enables React-based web applications"
+        }
+    ],
+    "WorkSample": [
+        {
+            "id": 0,
+            "Name": "Gaming 🎮 App (Demo)",
+            "summery": "Built using Nextjs",
+            "Link": "https://next-gameinfo-app.vercel.app/"
+        },
+        {
+            "id": 1,
+            "Name": "job-less ",
+            "summery": "Built using Reactjs and Nodejs (Just for Payment Part)",
+            "Link": "https://job-less-12094.web.app/"
+        },
+        {
+            "id": 2,
+            "Name": "Threats and Trends shopping app",
+            "summery": "   Built using Reactjs and Nodejs (Just for Payment Part)",
+            "Link": "  https://threads-cb101.web.app/"
+        },
+        {
+            "id": 3,
+            "Name": "Threats and Trends shopping app",
+            "summery": "   Built using Reactjs and Nodejs (Just for Payment Part)",
+            "Link": "  https://threads-cb101.web.app/"
+        },
+        {
+            "id": 4,
+            "Name": "Stack-overflow-demo",
+            "summery": "Built using MERN (MongoDB , Express , REACTJS , NODEJS)",
+            "Link": " https://stack-overflow-clone06.netlify.app/"
+        },
+        {
+            "id": 5,
+            "Name": "Tic-Tac-To Game",
+            "summery": "Built using React.js",   
+            "Link": "https://twitch-site-clone.netlify.app/"
+        }
+        ,{
+            "id": 6,
+            "Name": "Snake's 🐍 and Ladders 🪓",
+            "summery": "Built using React.js",
+            "Link": "https://snakeladders2.netlify.app/"
+        }
+    ]
+}
