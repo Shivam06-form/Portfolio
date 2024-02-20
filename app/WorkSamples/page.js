@@ -6,6 +6,7 @@ import { Fragment } from "react";
 import "./WorkSamples.css";
 import Divider from "@/components/Divider";
 import { CssData, WorkSample } from '../WorkSamples/Data.json'
+import Clock from "@/components/Clock/Clock";
 
 export default function WorkSamples() {
 
@@ -15,13 +16,14 @@ export default function WorkSamples() {
       <metadata>
         <title>Work Samples</title>
         <meta name="description" content="Some of my work samples" />
-        <link  
+        <link
           rel="icon"
           href="https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_W_red-2-256.png"
         />
       </metadata>
       <Header /> <Divider style={{ marginTop: "1%" }} />
       <div className="Work">
+
         <ul>
           {WorkSample.map((work) => {
             return (
@@ -43,6 +45,7 @@ export default function WorkSamples() {
       </div>
       <div style={{ width: "80%", margin: "auto" }}>
         <h1>CSS WORK</h1>
+          <Clock />
         <div className="cssdata-conatainer">
           {CssData.map((data) => {
             return (

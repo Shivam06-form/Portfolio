@@ -1,0 +1,80 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/global.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+body {
+  display: block;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation: backgroundColor 5s infinite; 
+
+}
+
+
+@keyframes backgroundColor {
+  from {
+    background: linear-gradient(135deg, rgb(50, 49, 49) 0%, rgba(20, 16, 30, 0.221) 51%, rgba(97, 34, 41, 0.29) 51%, rgba(239, 197, 202, 1) 100%);
+
+  }
+  to {
+    background: linear-gradient(135deg, rgb(84, 81, 82) 0%, rgba(42, 37, 40, 0.397) 51%, rgba(59, 49, 50, 0.219) 51%, rgba(83, 15, 23, 0.443) 100%);
+
+  }
+}
+
+
+summery {
+  color: rgba(255, 255, 255, 0.678)
+}
+
+.image {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.show {
+  transform: translateY(-2rem);
+  transition: all 400ms;
+}
+
+.hidden {
+  transition: all 400ms;
+  opacity: 0;
+  transform: translateY(2rem);
+}
+
+.Divider {
+  background-color: black;
+  height: 1px;
+  margin-top: 14%;
+  margin-bottom: 5%;
+  /* width: 100%; */
+}
+
+.card {
+  /* margin: auto; */
+  background: rgb(223, 225, 235);
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.Container-Cover {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+  width: 95%;
+  margin: auto;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0%;
+  font-size: large;
+  font-weight: 700;
+  color: rgba(63, 62, 62, 0.801);
+}
