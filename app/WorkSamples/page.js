@@ -29,7 +29,7 @@ export default function WorkSamples() {
             return (
               <li key={work.id}>
                 <div>{work.Name}</div>
-                <summary style={{ color: "white" }}>Built using Nextjs</summary>
+                <summary style={{ color: "white" }}>{work.summery}</summary>
                 <Link
                   href={work.Link}
                   target="_blank"

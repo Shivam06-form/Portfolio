@@ -37,9 +37,9 @@
         },
         {
             "id": 3,
-            "Name": "Threats and Trends shopping app",
-            "summery": "   Built using Reactjs and Nodejs (Just for Payment Part)",
-            "Link": "  https://threads-cb101.web.app/"
+            "Name": "Twitch Clone",
+            "summery": "Built using React.js",
+            "Link": "https://twitch-site-clone.netlify.app/ "
         },
         {
             "id": 4,
@@ -51,7 +51,7 @@
             "id": 5,
             "Name": "Tic-Tac-To Game",
             "summery": "Built using React.js",   
-            "Link": "https://twitch-site-clone.netlify.app/"
+            "Link": "https://tic-tak-to-2.vercel.app/"
         }
         ,{
             "id": 6,
