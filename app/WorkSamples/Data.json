@@ -21,43 +21,50 @@
             "id": 0,
             "Name": "Gaming 🎮 App (Demo)",
             "summery": "Built using Nextjs",
-            "Link": "https://next-gameinfo-app.vercel.app/"
+            "Link": "https://next-gameinfo-app.vercel.app/",
+            "image": "/Pictures/GamingApp.png"
         },
         {
             "id": 1,
             "Name": "job-less ",
             "summery": "Built using Reactjs and Nodejs (Just for Payment Part)",
-            "Link": "https://job-less-12094.web.app/"
+            "Link": "https://job-less-12094.web.app/",
+            "image": "/Pictures/JobLess.png"
         },
         {
             "id": 2,
             "Name": "Threats and Trends shopping app",
             "summery": "   Built using Reactjs and Nodejs (Just for Payment Part)",
-            "Link": "  https://threads-cb101.web.app/"
+            "Link": "  https://threads-cb101.web.app/",
+            "image": "/Pictures/ThreadsAndTrends.png"
         },
         {
             "id": 3,
             "Name": "Twitch Clone",
             "summery": "Built using React.js",
-            "Link": "https://twitch-site-clone.netlify.app/ "
+            "Link": "https://twitch-site-clone.netlify.app/ ",
+            "image": "/Pictures/GamingApp.png"
         },
         {
             "id": 4,
             "Name": "Stack-overflow-demo",
             "summery": "Built using MERN (MongoDB , Express , REACTJS , NODEJS)",
-            "Link": " https://stack-overflow-clone06.netlify.app/"
+            "Link": " https://stack-overflow-clone06.netlify.app/",
+            "image": "/Pictures/stack.png"
         },
         {
             "id": 5,
             "Name": "Tic-Tac-To Game",
-            "summery": "Built using React.js",   
-            "Link": "https://tic-tak-to-2.vercel.app/"
-        }
-        ,{
+            "summery": "Built using React.js",
+            "Link": "https://tic-tak-to-2.vercel.app/",
+            "image": "/Pictures/tictakto.png"
+        },
+        {
             "id": 6,
             "Name": "Snake's 🐍 and Ladders 🪓",
             "summery": "Built using React.js",
-            "Link": "https://snakeladders2.netlify.app/"
+            "Link": "https://snakeladders2.netlify.app/",
+            "image": "/Pictures/Snake.png"
         }
     ]
 }

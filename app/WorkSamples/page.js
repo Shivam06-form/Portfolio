@@ -7,6 +7,8 @@ import "./WorkSamples.css";
 import Divider from "@/components/Divider";
 import { CssData, WorkSample } from '../WorkSamples/Data.json'
 import Clock from "@/components/Clock/Clock";
+import Image from "next/image";
+
 
 export default function WorkSamples() {
 
@@ -16,6 +18,7 @@ export default function WorkSamples() {
       <metadata>
         <title>Work Samples</title>
         <meta name="description" content="Some of my work samples" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.8" />
         <link
           rel="icon"
           href="https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_W_red-2-256.png"
@@ -23,20 +26,23 @@ export default function WorkSamples() {
       </metadata>
       <Header /> <Divider style={{ marginTop: "1%" }} />
       <div className="Work">
-
         <ul>
-          {WorkSample.map((work) => {
+          {(WorkSample || []).map((work, i) => {
             return (
-              <li key={work.id}>
-                <div>{work.Name}</div>
-                <summary style={{ color: "white" }}>{work.summery}</summary>
-                <Link
-                  href={work.Link}
-                  target="_blank"
-                >
-                  {work.Link}
-                </Link>{" "}
-                <div>--------------------------------------------------------------------</div>
+              <li key={work.id} className={`${i % 2 == 0 ? "Work-li-right" : "Work-li-left"} `}>
+                <div className="Work-Detials">
+                  <h4>{work.Name}</h4>
+                  <summary style={{ color: "black" }}>{work.summery}</summary>
+                  <Link
+                    href={work.Link}
+                    target="_blank"
+                  >
+                    {work.Link}
+                  </Link>{" "}
+                </div>
+                <Image src={work.image} alt={work.image}
+                  className="work-image" priority
+                  width={400} height={200} />
               </li>
             )
           })}
@@ -45,7 +51,7 @@ export default function WorkSamples() {
       </div>
       <div style={{ width: "80%", margin: "auto" }}>
         <h1>CSS WORK</h1>
-          <Clock />
+        <Clock />
         <div className="cssdata-conatainer">
           {CssData.map((data) => {
             return (

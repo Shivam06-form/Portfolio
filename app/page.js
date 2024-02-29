@@ -16,6 +16,7 @@ export default function Page() {
       <metadata>
         <title>Portfolio</title>
         <meta name="description" content="Portfolio of Shivam Bhagwat" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=0.5" /> */}
         <link
           rel="icon"
           href="https://cdn-icons-png.flaticon.com/512/8370/8370972.png"

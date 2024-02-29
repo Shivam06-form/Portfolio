@@ -1,21 +1,21 @@
 body {
   display: block;
   height: fit-content;
-  animation: backgroundColor 5s infinite; 
+  /* animation: backgroundColor 5s infinite;  */
 
 }
 
 
-@keyframes backgroundColor {
+/* @keyframes backgroundColor {
   from {
-    background: linear-gradient(135deg, rgb(50, 49, 49) 0%, rgba(20, 16, 30, 0.221) 51%, rgba(97, 34, 41, 0.29) 51%, rgba(239, 197, 202, 1) 100%);
+    background: linear-gradient(135deg, rgb(171, 169, 169) 0%, rgba(20, 16, 30, 0.221) 51%, rgba(97, 34, 41, 0.29) 51%, rgba(239, 197, 202, 1) 100%);
 
   }
   to {
-    background: linear-gradient(135deg, rgb(84, 81, 82) 0%, rgba(42, 37, 40, 0.397) 51%, rgba(59, 49, 50, 0.219) 51%, rgba(83, 15, 23, 0.443) 100%);
+    background: linear-gradient(135deg, rgb(184, 162, 169) 0%, rgba(42, 37, 40, 0.397) 51%, rgba(59, 49, 50, 0.219) 51%, rgba(83, 15, 23, 0.443) 100%);
 
   }
-}
+} */
 
 
 summery {
