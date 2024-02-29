@@ -251,6 +251,9 @@
 }
 
 @media (max-width: 1000px) {
+
+
+
   .cssdata-conatainer {
     flex-direction: column;
     align-items: center;
@@ -269,7 +272,7 @@
 
   .work-image {
     width: 20rem;
-    height: 10rem;
+    height: 13rem;
   }
 
 }
@@ -284,12 +287,21 @@
   .Work-li-left {
     flex-direction: column-reverse;
     gap: 1rem;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .Work ul {
+    gap: 2rem;
     justify-content: center;
-    gap: 2rem
   }
+
+  .Work-Detials {
+    flex-wrap: wrap;
+    width: 80%;
+    /* background-color: rgba(150, 221, 7, 0.461); */
+  }
+
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/Clock/Clock.css ***!

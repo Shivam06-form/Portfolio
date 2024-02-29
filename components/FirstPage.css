@@ -23,7 +23,7 @@
 
 .summary h1 {
   color: #000;
-  font-size:large;
+  font-size: large;
   /* text-shadow: #898b898a 3px 3px 3px; */
 }
 
@@ -89,6 +89,12 @@
 .skills button {
   background-color: #8FB8DE;
   padding: auto;
+}
+
+.social-conatinar {
+  display: flex;
+  width: 50%;
+  gap: 3%
 }
 
 
