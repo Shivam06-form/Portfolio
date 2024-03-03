@@ -34,7 +34,7 @@
         {
             "id": 2,
             "Name": "Threats and Trends shopping app",
-            "summery": "   Built using Reactjs and Nodejs (Just for Payment Part)",
+            "summery": "Built using Reactjs and Nodejs (Just for Payment Part)",
             "Link": "  https://threads-cb101.web.app/",
             "image": "/Pictures/ThreadsAndTrends.png"
         },
@@ -43,7 +43,7 @@
             "Name": "Twitch Clone",
             "summery": "Built using React.js",
             "Link": "https://twitch-site-clone.netlify.app/ ",
-            "image": "/Pictures/GamingApp.png"
+            "image": "/Pictures/TwitchClone.png"
         },
         {
             "id": 4,

@@ -33,6 +33,7 @@ summery {
   transition: all 400ms;
 }
 
+/* /////////////////////HIDDEN FOR ALL///////////////////////// */
 .hidden {
   transition: all 400ms;
   opacity: 0;

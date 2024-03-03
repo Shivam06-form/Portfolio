@@ -20,6 +20,10 @@ const FirstPage = ({ moveTo }) => {
 
   return (
     <Fragment>
+      <metadata> 
+      <title>Detials</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+      </metadata>
       <Divider style={{ marginTop: "1%" }} />
       <div className="first">
         <summary className="summary">

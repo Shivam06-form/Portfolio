@@ -8,9 +8,11 @@ import KVS from "../Images/KVS.png";
 import { Observer } from "../Custom/Observer";
 
 const Education = () => {
-  const Ref = useRef();
+  const Ref = useRef([]);
 
   const getObserver = Observer({ RefProp: Ref });
+
+  console.log(Ref)
 
   const EducationList = [
     {

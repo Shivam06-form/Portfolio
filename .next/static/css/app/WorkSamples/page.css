@@ -80,7 +80,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/WorkSamples/WorkSamples.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
 .Work {
-  width: 75%;
+  width: 85%;
   margin: auto;
   margin-top: 5%;
   /* background-color: whitesmoke; */
@@ -98,6 +98,7 @@
   align-items: center;
   font-size: large;
   gap: 10px;
+  overflow: hidden;
 }
 
 /* /////////////////////////////RIGHT////////////////////// */
@@ -126,8 +127,9 @@
   flex-direction: column;
   width: -moz-fit-content;
   width: fit-content;
-  /* background-color: greenyellow; */
   text-align: justify;
+  transform: translateY(0%);
+  transition: all 500ms;
 }
 
 .Work-Detials summary {
@@ -137,6 +139,9 @@
 .work-image {
   width: 25rem;
   height: 15rem;
+  opacity: 100;
+  transform: translateX(0%);
+  transition: all 500ms;
 }
 
 .Work h4 {
@@ -144,6 +149,22 @@
 }
 
 /* ////////////////////////////////////////// */
+
+/* ////////////HIDDEN FOR WORKSAMPLE PAGE //////////////////////// */
+
+.hidden-work-img {
+  transition: all 500ms;
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.hidden-work-detials {
+  transition: all 500ms;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+/* //////////////////////////////////////////////////////////////////// */
 
 
 
@@ -251,9 +272,6 @@
 }
 
 @media (max-width: 1000px) {
-
-
-
   .cssdata-conatainer {
     flex-direction: column;
     align-items: center;
@@ -266,7 +284,7 @@
   }
 
   .Work {
-    width: 95%;
+    width: 98%;
     /* background-color: aquamarine; */
   }
 
@@ -281,6 +299,7 @@
   .work-image {
     width: 15rem;
     height: 10rem;
+    margin: auto;
   }
 
   .Work-li-right,
@@ -294,12 +313,12 @@
   .Work ul {
     gap: 2rem;
     justify-content: center;
+    /* background-color: aquamarine; */
   }
 
   .Work-Detials {
     flex-wrap: wrap;
-    width: 80%;
-    /* background-color: rgba(150, 221, 7, 0.461); */
+    width: 15rem;
   }
 
 }
