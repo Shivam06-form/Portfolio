@@ -94,8 +94,39 @@
 .social-conatinar {
   display: flex;
   width: 50%;
-  gap: 3%
+  gap: 3%;
 }
+
+
+
+
+
+/* #1 */
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* #2 */
+.Center {
+  display: flex;
+  align-content: center;
+}
+
+
+
+/* #3 */
+.Center {
+  display: flex;
+  align-self: center;
+}
+
+
+
+
+
 
 
 @media (max-width: 768px) {

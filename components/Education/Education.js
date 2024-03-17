@@ -12,8 +12,6 @@ const Education = () => {
 
   const getObserver = Observer({ RefProp: Ref });
 
-  console.log(Ref)
-
   const EducationList = [
     {
       id: 1,

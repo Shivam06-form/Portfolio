@@ -11,6 +11,14 @@ import "./global.css";
 export default function Page() {
   const MoveToRef = useRef();
 
+  const date = new Date()
+
+  console.log(
+    date.toLocaleDateString(),
+    new Date(date.setHours(date.getHours() + 24)).toLocaleDateString()
+  )
+
+
   return (
     <Fragment>
       <metadata>

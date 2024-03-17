@@ -4,13 +4,10 @@ import './Clock.css'
 const Clock = () => {
 
     const [time, setTime] = useState({ Seconds: 0, Minutes: 0, Hours: 0 })
-    const [isDate, setIsDate] = useState({
-        Seconds: 0, Minutes: 0, Hours: 0
-    })
+
     useEffect(() => {
         setInterval(() => {
             const DATE = new Date()
-            setIsDate({ Seconds: DATE.getSeconds(), Minutes: DATE.getMinutes(), Hours: DATE.getHours().toLocaleString({ hour12: true }) })
             setTime({ ...time, Seconds: DATE.getSeconds() * 6, Minutes: DATE.getMinutes() * 6, Hours: ((DATE.getHours() * 30) + (DATE.getMinutes() * 0.5)) })
         }, 1000)
     }, [time.Hours])

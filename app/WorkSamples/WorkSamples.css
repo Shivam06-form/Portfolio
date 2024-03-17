@@ -16,8 +16,8 @@
   list-style: decimal;
   align-items: center;
   font-size: large;
-  gap: 10px;
   overflow: hidden;
+  /* background-color: green; */
 }
 
 /* /////////////////////////////RIGHT////////////////////// */
@@ -26,8 +26,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  /* gap: 4%; */
   margin-bottom: 4%;
-  /* flex-wrap: wrap; */
 }
 
 /* /////////////////LEFT//////////////// */
@@ -38,6 +38,7 @@
   justify-content: space-between;
   flex-direction: row;
   margin-bottom: 4%;
+  /* gap: 4%; */
 }
 
 
@@ -46,7 +47,7 @@
   flex-direction: column;
   width: fit-content;
   text-align: justify;
-  transform: translateY(0%);
+  width: 45%;
   transition: all 500ms;
 }
 
@@ -55,7 +56,8 @@
 }
 
 .work-image {
-  width: 25rem;
+  width: 45%;
+  /* width: 25rem; */
   height: 15rem;
   opacity: 100;
   transform: translateX(0%);
