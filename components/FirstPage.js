@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./FirstPage.css";
-import ProfileImage from "./Images/profile.jpeg";
+import ProfileImage from "./Images/profile.png";
 import Image from "next/image";
 import Divider from "./Divider";
 import Link from "next/link";
