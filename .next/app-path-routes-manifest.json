@@ -1,0 +1,12 @@
+{
+  "/_not-found": "/_not-found",
+  "/page": "/",
+  "/Experience/page": "/Experience",
+  "/[id]/page": "/[id]",
+  "/Qualification/page": "/Qualification",
+  "/WorkSamples/page": "/WorkSamples",
+  "/api/route": "/api",
+  "/Intership/intershala/page": "/Intership/intershala",
+  "/Intership/NullClasses/page": "/Intership/NullClasses",
+  "/Intership/Udemy/page": "/Intership/Udemy"
+}

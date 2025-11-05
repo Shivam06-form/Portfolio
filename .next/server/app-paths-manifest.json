@@ -1,6 +1,12 @@
 {
+  "/_not-found": "app/_not-found.js",
   "/page": "app/page.js",
-  "/WorkSamples/page": "app/WorkSamples/page.js",
+  "/Experience/page": "app/Experience/page.js",
+  "/[id]/page": "app/[id]/page.js",
   "/Qualification/page": "app/Qualification/page.js",
-  "/Experience/page": "app/Experience/page.js"
+  "/WorkSamples/page": "app/WorkSamples/page.js",
+  "/api/route": "app/api/route.js",
+  "/Intership/intershala/page": "app/Intership/intershala/page.js",
+  "/Intership/NullClasses/page": "app/Intership/NullClasses/page.js",
+  "/Intership/Udemy/page": "app/Intership/Udemy/page.js"
 }
