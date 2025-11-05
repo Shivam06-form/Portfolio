@@ -38,11 +38,14 @@
   text-align: left;
   width: 70%;
 }
-
+/* 
 .skills {
-  /* background-color: aqua; */
-  width: 70%;
+  align-content: center;
 }
+
+.skills b {
+  margin-left: auto;
+} */
 
 @media (max-width: 768px) {
   .first {

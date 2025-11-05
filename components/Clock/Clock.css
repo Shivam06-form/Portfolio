@@ -1,109 +1,106 @@
 .clock {
-    background-color: rgba(6, 187, 127, 0.224);
-    border-style: groove;
-    border: 2px solid rgb(7, 33, 7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    border-radius: 10px;
-    margin: auto;
-    margin-bottom: 2%;
+  background-color: rgba(6, 187, 127, 0.224);
+  border-style: groove;
+  border: 2px solid rgb(7, 33, 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 2%;
 }
 
 .Digitelclock {
-    font-size: xx-large;
-    font-family: 'Times New Roman', Times, serif;
-    color: grey;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  color: grey;
 }
 
 .Wallclock {
-    width: 12rem;
-    height: 12rem;
-    background-color: rgb(11, 180, 11);
-    border-radius: 100%;
-    border: 10px solid rgb(7, 33, 7);
-    position: relative;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
+  width: 12rem;
+  height: 12rem;
+  background-color: rgb(11, 180, 11);
+  border-radius: 100%;
+  border: 10px solid rgb(7, 33, 7);
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .clockNumbers {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    height: 12rem;
-    background-color: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 12rem;
+  background-color: transparent;
+  /* padding: 45px; */
 }
 
 .clockNumbers2 {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    width: 12rem;
-    background-color: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 12rem;
+  background-color: transparent
 }
-
 
 /* //////////////////////////////////////// */
 .HourHand {
-    position: absolute;
-    height: 8rem;
-    width: 2px;
-    display: flex;
-    flex-direction: row;
-    flex-direction: space-between;
-    transition: all 1s;
-    background-color: transparent;
+  position: absolute;
+  height: 8rem;
+  width: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: space-between;
+  transition: all 1s;
+  background-color: transparent;
 }
 
 .HourHand :nth-child(1) {
-    height: 4rem;
-    width: 25rem;
-    background-color: rgb(255, 0, 230);
+  height: 4rem;
+  width: 25rem;
+  background-color: rgb(255, 0, 230);
 }
-
 
 /* /////////////////////////////////// */
 .MinuteHand {
-    position: absolute;
-    height: 10rem;
-    width: 2px;
-    display: flex;
-    flex-direction: row;
-    flex-direction: space-between;
-    background-color: transparent;
-    transition: all 1s;
+  position: absolute;
+  height: 10rem;
+  width: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: space-between;
+  background-color: transparent;
+  transition: all 1s;
 }
-
 
 .MinuteHand :nth-child(1) {
-    height: 5rem;
-    width: 25rem;
-    background-color: rgb(2, 83, 14);
+  height: 5rem;
+  width: 25rem;
+  background-color: rgb(2, 83, 14);
 }
-
 
 /* ///////////////////////////////// */
 .SecondHand {
-    position: absolute;
-    height: 12rem;
-    width: 2px;
-    background-color: transparent;
-    /* transition: all 1s; */
-    display: flex;
-    flex-direction: row;
-    flex-direction: space-between;
+  position: absolute;
+  height: 12rem;
+  width: 2px;
+  background-color: transparent;
+  /* transition: all 1s; */
+  display: flex;
+  flex-direction: row;
+  flex-direction: space-between;
 }
 
 .SecondHand :nth-child(1) {
-    height: 6rem;
-    width: 25rem;
-    background-color: blue;
+  height: 6rem;
+  width: 25rem;
+  background-color: blue;
 }

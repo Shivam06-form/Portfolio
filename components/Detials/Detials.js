@@ -36,7 +36,7 @@ const Detials = ({ MoveToRef }) => {
         </ul> */}
         <ul className="detials">
           <div> EXPERIENCE:</div>
-          <b> 3+ years</b>
+          <b> 2+ years</b>
         </ul>
         <ul className="detials">
           <div> ADDRESS : </div>
@@ -44,10 +44,12 @@ const Detials = ({ MoveToRef }) => {
         </ul>
         <ul className="detials">
           <div> SKILLS:</div>
-          <div className="skills">
-            <b>REACT.JS (Intermediate)</b> , <b> NODE.JS(Intermediate)</b> ,
-            <b> REACT-NATIVE(Intermediate)</b> , <b> NEXT.JS(BEGINNER)</b>
-          </div>
+          {/* <div className="skills"> */}
+            <b>
+              REACT.JS (Intermediate) , NODE.JS(Intermediate) ,
+              REACT-NATIVE(Intermediate), NEXT.JS(BEGINNER)
+            </b>
+          {/* </div> */}
         </ul>
       </div>
     </Fragment>

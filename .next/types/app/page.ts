@@ -1,4 +1,4 @@
-// File: F:\html\Java Script 3\Practice\Portfolio\Portfolio\app\page.js
+// File: C:\HTML\Nextjs\Portfolio\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

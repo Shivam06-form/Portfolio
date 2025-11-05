@@ -19,6 +19,7 @@ export default function Experience() {
         />
       </metadata>
       <Header /> <Divider style={{ marginTop: "1%" }} />
+      <h2>Learning</h2>
       <ul className="EXPERINCE">
         <li>
           <div>REACTJS</div>
@@ -69,6 +70,17 @@ export default function Experience() {
               Udemy Certificate For Compeleting JavaScript course
             </Link>
           </div>
+        </li>
+      </ul>
+      <h2>Working</h2>
+      <ul className="EXPERINCE">
+        <li>
+          <div>React-Native</div>
+          <b> 5 Months in TRS Software Solutions Pvt Ltd.</b>
+        </li>
+        <li>
+          <div>React-Native</div>
+          <b> 10 Months in Asyscraft technologies pvt ltd.</b>
         </li>
       </ul>
     </Fragment>
