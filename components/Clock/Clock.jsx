@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Clock.css";
 
 const Clock = () => {
-  const width = window.screen.width;
+  // const width = window.screen.width;
 
   const [time, setTime] = useState({ Seconds: 0, Minutes: 0, Hours: 0 });
 
@@ -24,7 +24,7 @@ const Clock = () => {
 
   return (
     <div className="clock">
-      <div className="Wallclock" style={{ padding: `${(width / 100) * 0.5}px` }}>
+      <div className="Wallclock" style={{ padding: `${10}px` }}>
         <div className="clockNumbers">
           <div>12</div>
           <div>6</div>
